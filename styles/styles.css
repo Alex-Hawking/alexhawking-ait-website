@@ -1,0 +1,115 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #121616;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.shape {
+  position: absolute;
+  top: 20%;
+}
+
+#header {
+  height: 90vh;
+  width: 100%;
+  background: linear-gradient(200deg, #401512 0%, #090b0b 60%);
+  color: #FFFFFF;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#circle {
+  background: #AC3931;
+  margin-left: 15%;
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+}
+
+#square {
+  width: 6vw;
+  height: 6vw;
+  background: #C94940;
+  margin-left: 22.5%;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 3vw solid transparent;
+  border-right: 3vw solid transparent;
+  border-bottom: 6vw solid #D26760;
+  margin-left: 30%;
+}
+
+#title {
+  color: white;
+  font-size: 5vw;
+  margin-top: 40vh;
+  margin-left: 15%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+.navbar {
+  background: #1C2222;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#body-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  padding: 3vw;
+  color: #D2DADA;
+}
+
+#sale-card {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: #2E3838;
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.body-text {
+  color: #E9EDED;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.header-text {
+  margin-top: 3vw;
+  font-size: 4rem;
+  color: #F4F6F6;
+}
+
+.left-text {
+  margin-left: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    height: 40vh;
+  }
+  #title {
+    margin-top: 15vh;
+  }
+  #body-text {
+    font-size: 1rem;
+    padding: 6vw;
+  }
+  .mobile-text-left {
+    margin-left: 3vw;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
